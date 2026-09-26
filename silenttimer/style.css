@@ -1,0 +1,15 @@
+:root{--ink:#131312;--sub:#6D6B65;--paper:#F3F2EE;--hair:#D9D7D0}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;line-height:1.85;-webkit-font-smoothing:antialiased}
+main{max-width:680px;margin:0 auto;padding:40px 20px 64px}
+nav{display:flex;gap:18px;flex-wrap:wrap;font-size:14px;margin-bottom:40px;border-bottom:1px solid var(--ink);padding-bottom:12px}
+nav a{color:var(--ink);text-decoration:none}
+.kicker{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;color:var(--sub);text-transform:uppercase}
+h1{font-size:30px;margin:8px 0 8px;letter-spacing:.04em}
+h2{font-size:17px;margin:0 0 6px}
+.lead{color:var(--sub)}
+.card{border-top:1px solid var(--hair);padding:22px 0}
+.legend{font-family:ui-monospace,Menlo,monospace;font-size:14px}
+a{color:var(--ink)}
+ul{padding-left:1.2em}
+footer{margin-top:40px;font-size:12px;color:var(--sub)}

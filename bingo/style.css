@@ -1,0 +1,13 @@
+:root{--wine:#1c0a12;--wine2:#2e111d;--gold:#e6c88a;--gold2:#c49a52;--ivory:#fbf3e4;--muted:#b59a95}
+*{box-sizing:border-box}
+body{margin:0;background:linear-gradient(180deg,#2a0f1a 0%,#1c0a12 40%,#14060c 100%);background-attachment:fixed;color:var(--ivory);font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;line-height:1.85}
+main{max-width:720px;margin:0 auto;padding:40px 20px 80px}
+h1{font-family:"Hiragino Mincho ProN","Yu Mincho",serif;color:var(--gold);font-size:30px;letter-spacing:.08em;margin:0 0 8px}
+h2{font-family:"Hiragino Mincho ProN","Yu Mincho",serif;color:var(--gold);font-size:19px;letter-spacing:.06em;margin-top:32px;border-bottom:1px solid rgba(230,200,138,.3);padding-bottom:6px}
+p,li{font-size:16px}
+.lead{color:var(--muted)}
+.card{background:rgba(46,17,29,.75);border:1px solid rgba(230,200,138,.2);border-radius:18px;padding:18px 24px;margin:16px 0}
+a{color:var(--gold)}
+nav{display:flex;gap:18px;font-size:14px;margin-bottom:28px}
+.eyebrow{font-family:Didot,"Bodoni 72",serif;letter-spacing:.4em;color:rgba(230,200,138,.7);font-size:12px}
+footer{margin-top:48px;font-size:13px;color:var(--muted)}

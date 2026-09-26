@@ -1,0 +1,15 @@
+:root { --bg:#E9EEEA; --card:#FBFCFB; --ink:#15211C; --sub:#5A6A62; --pine:#1F5C4A; --rule:#D5DED8; --brass:#8C6519; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif; line-height:1.8; }
+main { max-width:720px; margin:0 auto; padding:24px 16px 48px; }
+nav { display:flex; gap:16px; flex-wrap:wrap; font-size:14px; margin-bottom:24px; }
+nav a { color:var(--pine); text-decoration:none; }
+h1 { font-size:28px; margin:0 0 8px; letter-spacing:.06em; }
+h1::before { content:""; display:block; width:48px; height:5px; background:var(--pine); border-radius:3px; margin-bottom:12px; }
+h2 { font-size:18px; margin:24px 0 8px; }
+.lead { color:var(--sub); }
+.card { background:var(--card); border:1px solid var(--rule); border-radius:16px; padding:8px 20px 16px; margin:16px 0; }
+.warn { background:#F8F1E2; border-color:#F0E1BF; color:var(--brass); }
+a { color:var(--pine); }
+footer { margin-top:32px; font-size:13px; color:var(--sub); }
+small { color:var(--sub); }
